@@ -7,12 +7,10 @@ using namespace std;
 int main()
 {
 	tablica T;
-
-	T.rozmiar = 1000;
+	T.rozmiar = 10000000;
     T.tab = new int[T.rozmiar];
-	
 	T.GeneratorLiczb();
-	T.MierzenieCzasu();
+	T.MierzenieCzasu();	
 	system("pause");
 	return 0;
 }
